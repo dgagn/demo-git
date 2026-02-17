@@ -4,6 +4,10 @@ int is_auth() {
     return 1;
 }
 
+int bob() {
+    return 0;
+}
+
 int main(void) {
     printf("Hello World 3");
     printf("troisième modification");
