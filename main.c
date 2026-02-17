@@ -8,6 +8,10 @@ int bob() {
     return 0;
 }
 
+int login() {
+    return 0;
+}
+
 int main(void) {
     printf("Hello World 3");
     printf("troisième modification");
@@ -15,5 +19,7 @@ int main(void) {
     if (is_auth() == 1) {
         return 1;
     }
+
+    login();
     return 0;
 }
